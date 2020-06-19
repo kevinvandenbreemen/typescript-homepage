@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './components/HelloComponent';
+import { Message } from './components/HelloComponent';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <Message message="Hello Wosssrld"/>
       </header>
     </div>
   );
